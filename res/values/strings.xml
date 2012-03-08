@@ -5,4 +5,11 @@
 <string name="Retrieve">Retrieve</string>
 <string name="taskName">Task Name</string>
 <string name="taskNameHint">Task Name</string>
+<string name="listPrompt">Choose a list</string>
+<string name="lists"></string>
+<string name="duedate">Due Date</string>
+<string-array name="list">
+    <item>myList</item>
+    <item>myList2</item>
+</string-array>
 </resources>
