@@ -3,4 +3,6 @@
     <string name="ContentView">&lt;Content&gt;</string>
     <string name="app_name">Android, Http Authentication</string>
 <string name="Retrieve">Retrieve</string>
+<string name="taskName">Task Name</string>
+<string name="taskNameHint">Task Name</string>
 </resources>

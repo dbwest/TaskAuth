@@ -4,15 +4,50 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     >
-<Button android:text="@string/Retrieve"
-	android:id="@+id/RetrieveBtn" 
-	android:layout_width="wrap_content" 
-	android:layout_height="wrap_content">
-</Button>
-<TextView  
-    android:layout_width="fill_parent" 
-    android:layout_height="fill_parent" 
-    android:text="@string/ContentView"
-/>
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/taskName" />
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <EditText
+            android:id="@+id/taskName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/taskNameHint"
+            android:inputType="text" >
+
+            <requestFocus />
+        </EditText>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </TableRow>
+    </TableLayout>
 
 </LinearLayout>
